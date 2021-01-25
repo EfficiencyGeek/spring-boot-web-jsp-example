@@ -15,6 +15,7 @@
 
     <p><a href="<c:url value="/fail"/>">This url always fail</a></p>
     
+    <h2>${mytext1}</h1>
     <p>
         Today's date: <%= (new java.util.Date()).toLocaleString()%>
     </p>

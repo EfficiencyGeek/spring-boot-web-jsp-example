@@ -12,4 +12,9 @@ public class MessageAdvice {
         return message;
     }
 
+    @ModelAttribute("mytext1")
+    public String mytext1(@Value("${application.mytext1:default mytext1}") String message) {
+        return message;
+    }
+
 }
